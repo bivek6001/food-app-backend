@@ -6,8 +6,9 @@ const productSchema= new mongoose.Schema({
     },
     restaurant:String   ,
     rating:Number,
-    region:String
-
+    region:String,
+    item:String,
+    price:Number
 
 
 
